@@ -14,13 +14,13 @@ def execute(score):
     else :
         print('error')
 
-#execute(-200)
+execute(-200)
 
 def simple_interest(principal, rate, time):
     simple_interest = (principal * rate * time) / 100
     print(simple_interest)
 
-#simple_interest(760000, 10.6, 0.5)
+simple_interest(760000, 10.6, 0.5)
 
 def get_month_name(month):
     month_names = [
